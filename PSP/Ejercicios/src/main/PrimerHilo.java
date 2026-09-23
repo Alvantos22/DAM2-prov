@@ -1,10 +1,11 @@
-package Ejercicios;
+package main;
 
-class ContadorThreadRunnable implements Runnable{
+class ContadorThread extends Thread{
     @Override
     public void run(){
         for (int i = 1; i <11 ; i++) {
             System.out.println("hilo Nº " + i);
+
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
@@ -13,10 +14,10 @@ class ContadorThreadRunnable implements Runnable{
         }
     }
 }
-public class PrimerHiloRunnable {
+public class PrimerHilo {
     static void main() {
-        Thread ct =new Thread(new ContadorThreadRunnable());
-        Thread ct2 =new Thread(new ContadorThreadRunnable());
+        ContadorThread ct =new ContadorThread();
+        ContadorThread ct2=new ContadorThread();
         ct.start();
         ct2.start();
     }
