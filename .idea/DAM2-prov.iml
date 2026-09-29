@@ -18,5 +18,7 @@
       <sourceFolder url="file://$MODULE_DIR$/PSP/Apuntes/source" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PSP/Apuntes/src" isTestSource="false" />
     </content>
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" />
   </component>
 </module>
