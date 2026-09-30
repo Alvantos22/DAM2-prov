@@ -4,4 +4,12 @@
     <string name="_1">1º</string>
     <string name="equipo1">Equipo1</string>
     <string name="_33">33</string>
+    <string name="x">X</string>
+    <string name="botonplay">botonPlay</string>
+    <string name="equipo2">Equipo2</string>
+    <string name="_10">10</string>
+    <string name="faltas">Faltas</string>
+    <string name="mas">+</string>
+    <string name="_0_x_0">0 X 0</string>
+    <string name="botonsumar">BotonSumar</string>
 </resources>
