@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="_10_00">10:00</string>
+    <string name="_1">1º</string>
+    <string name="equipo1">Equipo1</string>
+    <string name="_33">33</string>
 </resources>
