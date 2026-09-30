@@ -12,4 +12,6 @@
     <string name="mas">+</string>
     <string name="_0_x_0">0 X 0</string>
     <string name="botonsumar">BotonSumar</string>
+    <string name="compartir">COMPARTIR</string>
+    <string name="editar">EDITAR</string>
 </resources>
