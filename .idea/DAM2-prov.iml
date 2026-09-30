@@ -11,5 +11,28 @@
     </content>
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/ADE/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Moviles/Ejercicios/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PSP/Ejercicios/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PSP/Apuntes/source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PSP/Apuntes/src" isTestSource="false" />
+    </content>
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/ADE/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Moviles/Ejercicios/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PSP/Ejercicios/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PSP/Apuntes/source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PSP/Apuntes/src" isTestSource="false" />
+    </content>
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" />
   </component>
 </module>
