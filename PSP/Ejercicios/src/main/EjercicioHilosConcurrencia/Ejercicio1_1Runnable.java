@@ -1,29 +1,27 @@
 package main.EjercicioHilosConcurrencia;
 
-public class Ejercicio1_1T extends Thread{
+public class Ejercicio1_1Runnable implements Runnable {
     @Override
-     public void run() {
+    public void run() {
         for (int i = 0; i < 100; i++) {
             try {
                 Thread.sleep(200);
                 System.out.println(Thread.currentThread().getName()+ " lleva "+i);
             } catch (InterruptedException e) {
-                System.out.println(e.getMessage()); // aplicar log4j
+                System.out.println(e.getMessage());
             }
         }
     }
 
     static void main() {
-        Ejercicio1_1T t1 =new Ejercicio1_1T();
-        Ejercicio1_1T t2 =new Ejercicio1_1T();
-        Ejercicio1_1T t3 =new Ejercicio1_1T();
-        Ejercicio1_1T t4 =new Ejercicio1_1T();
-        t1.start();
+        Thread t = new Thread(new Ejercicio1_1Runnable());
+        Thread t2 = new Thread(new Ejercicio1_1Runnable());
+        Thread t3 = new Thread(new Ejercicio1_1Runnable());
+        Thread t4 = new Thread(new Ejercicio1_1Runnable());
+
+        t.start();
         t2.start();
         t3.start();
         t4.start();
-
-
-
     }
 }
