@@ -14,6 +14,7 @@ public class Ejercicio1_1Runnable implements Runnable {
     }
 
     static void main() {
+        //sin bucle para que se vea que espera a que termine el primero
         Thread t = new Thread(new Ejercicio1_1Runnable());
         Thread t2 = new Thread(new Ejercicio1_1Runnable());
         Thread t3 = new Thread(new Ejercicio1_1Runnable());

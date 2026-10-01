@@ -3,6 +3,12 @@ package main.EjercicioHilosConcurrencia;
 
 // aplicar log4j en vez de usar sout
 public class Ejercicio1_1Thread extends Thread{
+    private int numero;
+
+    public Ejercicio1_1Thread(int numero){
+    this.numero=numero;
+    }
+
     @Override
      public void run() {
         for (int i = 0; i < 100; i++) {
@@ -16,20 +22,13 @@ public class Ejercicio1_1Thread extends Thread{
     }
 
     static void main() {
-        Ejercicio1_1Thread t1 =new Ejercicio1_1Thread();
-        Ejercicio1_1Thread t2 =new Ejercicio1_1Thread();
-        Ejercicio1_1Thread t3 =new Ejercicio1_1Thread();
-        Ejercicio1_1Thread t4 =new Ejercicio1_1Thread();
-
         try {
-            t1.start();
-            t1.join();
-            t2.start();
-            t2.join();
-            t3.start();
-            t3.join();
-            t4.start();
-        } catch (InterruptedException e) {
+        for (int i = 1; i <= 4; i++) {
+            Ejercicio1_1Thread hilo = new Ejercicio1_1Thread(i);
+            hilo.start();
+            hilo.join();
+        }
+            }catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
 
