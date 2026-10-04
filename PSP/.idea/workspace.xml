@@ -40,7 +40,6 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -51,25 +50,7 @@
     &quot;assignee&quot;: &quot;Alvantos22&quot;
   }
 }</component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="1a270824-37b6-4662-afeb-607149379f01" />
-  </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Alvantos22/DAM2-prov.git",
-    "accountId": "1a270824-37b6-4662-afeb-607149379f01"
-  },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
-    },
-    "owner": "Alvantos22",
-    "repository": "DAM2-prov"
   }
-}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -78,84 +59,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EjCuentaBancaria.executor": "Run",
-    "Application.EjDeadlock.executor": "Run",
-    "Application.EjSemaforo.executor": "Run",
-    "Maven.Unknown [clean].executor": "Run",
-    "Maven.mi-proyecto [clean].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "#7 on psp",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ezrea/IdeaProjects/DAM2-prov/PSP",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
   }
-}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ezrea\IdeaProjects\DAM2-prov\PSP\Ejercicios\src\main" />
       <recent name="C:\Users\Santos\IdeaProjects\DAM2-prov\PSP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjSemaforo">
-    <configuration name="EjCuentaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.EjercicioHilosConcurrencia.EjCuentaBancaria" />
-      <module name="PSP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.EjercicioHilosConcurrencia.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjDeadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.EjercicioHilosConcurrencia.EjDeadlock" />
-      <module name="PSP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.EjercicioHilosConcurrencia.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjSemaforo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.EjercicioHilosConcurrencia.EjSemaforo" />
-      <module name="PSP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.EjercicioHilosConcurrencia.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.EjSemaforo" />
-        <item itemvalue="Application.EjDeadlock" />
-        <item itemvalue="Application.EjCuentaBancaria" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -169,30 +78,9 @@
       <workItem from="1790757324233" duration="128000" />
       <workItem from="1790843900745" duration="174000" />
     </task>
-    <task id="LOCAL-00001" summary="5. ReentrantLock, Semaphore, AtomicInteger — Alternativas a synchronized (5.1)">
-      <option name="closed" value="true" />
-      <created>1791142319390</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1791142319390</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="5. ReentrantLock, Semaphore, AtomicInteger — Alternativas a synchronized (5.1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="5. ReentrantLock, Semaphore, AtomicInteger — Alternativas a synchronized (5.1)" />
-  </component>
-  <component name="github-copilot-workspace">
-    <instructionFileLocations>
-      <option value=".github/instructions" />
-    </instructionFileLocations>
-    <promptFileLocations>
-      <option value=".github/prompts" />
-    </promptFileLocations>
   </component>
 </project>
