@@ -5,12 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dccfd18-a610-4cfd-bd79-9ae35f577f25" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/PSP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/logica/Hilo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/logica/MainProfe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/logica/PrimerHilo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/logica/PrimerHiloRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/EjercicioHilosConcurrencia/1Ejercicios.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/EjercicioHilosConcurrencia/EjCuentaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/EjercicioHilosConcurrencia/EjDeadlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/EjercicioHilosConcurrencia/EjSemaforo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/AccesoVentanillas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/Apuntes/logica/ContadorThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/Apuntes/logica/ContadorThreadRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/Apuntes/logica/Hilo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/Apuntes/logica/MainProfe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/Apuntes/logica/PrimerHilo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/Apuntes/logica/PrimerHiloRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/EjercicioHilosConcurrencia/1Ejercicios.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/EjercicioHilosConcurrencia/ClaseRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/EjercicioHilosConcurrencia/ClaseThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/EjercicioHilosConcurrencia/EjCocinero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/EjercicioHilosConcurrencia/EjCohete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/EjercicioHilosConcurrencia/EjCuentaBancaria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/EjercicioHilosConcurrencia/EjDeadlock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/EjercicioHilosConcurrencia/EjHiloVirtual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/EjercicioHilosConcurrencia/EjSemaforo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PSP/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/src/main/EjercicioHilosConcurrencia/Ejercicio1_1Runnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/src/main/EjercicioHilosConcurrencia/ClaseRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/src/main/EjercicioHilosConcurrencia/Ejercicio1_1Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/src/main/EjercicioHilosConcurrencia/ClaseThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/src/main/EjercicioHilosConcurrencia/Ejercicio2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/src/main/EjercicioHilosConcurrencia/EjCohete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/src/main/EjercicioHilosConcurrencia/Ejercicio2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/src/main/EjercicioHilosConcurrencia/EjCocinero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/ezrea/IdeaProjects/DAM2-prov/PSP" value="3JzfyV41TKEWjA5iBNZ9bxo8mpO" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,7 +78,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="ADE" />
+        <entry key="$PROJECT_DIR$/.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -60,34 +103,84 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;psp&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Santos/IdeaProjects/DAM2-prov/PSP&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EjCuentaBancaria.executor": "Run",
+    "Application.EjDeadlock.executor": "Run",
+    "Application.EjSemaforo.executor": "Run",
+    "Maven.Unknown [clean].executor": "Run",
+    "Maven.mi-proyecto [clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "psp",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ezrea/IdeaProjects/DAM2-prov/PSP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ezrea\IdeaProjects\DAM2-prov\PSP\Ejercicios\src\main" />
       <recent name="C:\Users\Santos\IdeaProjects\DAM2-prov\PSP" />
     </key>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.97" />
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28539.97" />
-      </set>
-    </attachedChunks>
+  <component name="RunManager" selected="Application.EjSemaforo">
+    <configuration name="EjCuentaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.EjercicioHilosConcurrencia.EjCuentaBancaria" />
+      <module name="PSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.EjercicioHilosConcurrencia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjDeadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.EjercicioHilosConcurrencia.EjDeadlock" />
+      <module name="PSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.EjercicioHilosConcurrencia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjSemaforo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.EjercicioHilosConcurrencia.EjSemaforo" />
+      <module name="PSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.EjercicioHilosConcurrencia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EjSemaforo" />
+        <item itemvalue="Application.EjDeadlock" />
+        <item itemvalue="Application.EjCuentaBancaria" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,5 +198,13 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

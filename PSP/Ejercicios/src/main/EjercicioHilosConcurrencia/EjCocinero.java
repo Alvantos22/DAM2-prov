@@ -1,6 +1,6 @@
 package main.EjercicioHilosConcurrencia;
 
-public class Ejercicio2_2 implements Runnable{
+public class EjCocinero implements Runnable {
     @Override
     public void run() {
         System.out.println(" Estado del cocinero: "+Thread.currentThread().getState());
@@ -16,7 +16,7 @@ public class Ejercicio2_2 implements Runnable{
     }
 
     void main(){
-        Thread cocinero = new Thread(new Ejercicio2_2());
+        Thread cocinero = new Thread(new EjCocinero());
 
         try {
             System.out.println(" \n Estado inicial del cocinero: "+cocinero.getState());

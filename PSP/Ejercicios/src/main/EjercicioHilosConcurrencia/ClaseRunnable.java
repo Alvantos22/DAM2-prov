@@ -1,6 +1,6 @@
 package main.EjercicioHilosConcurrencia;
 
-public class Ejercicio1_1Runnable implements Runnable {
+public class ClaseRunnable implements java.lang.Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 100; i++) {
@@ -15,10 +15,10 @@ public class Ejercicio1_1Runnable implements Runnable {
 
     static void main() {
         //sin bucle para que se vea que espera a que termine el primero
-        Thread t = new Thread(new Ejercicio1_1Runnable());
-        Thread t2 = new Thread(new Ejercicio1_1Runnable());
-        Thread t3 = new Thread(new Ejercicio1_1Runnable());
-        Thread t4 = new Thread(new Ejercicio1_1Runnable());
+        Thread t = new Thread(new ClaseRunnable());
+        Thread t2 = new Thread(new ClaseRunnable());
+        Thread t3 = new Thread(new ClaseRunnable());
+        Thread t4 = new Thread(new ClaseRunnable());
 
         t.start();
         t2.start();

@@ -2,7 +2,7 @@ package main.EjercicioHilosConcurrencia;
 
 
 
-public class Ejercicio2_1 implements Runnable{
+public class EjCohete implements Runnable {
     @Override
     public void run() {
         for (int i = 10; i > 0; i--) {
@@ -17,7 +17,7 @@ public class Ejercicio2_1 implements Runnable{
 
     void main(){
         try {
-        Thread cuenta = new Thread(new Ejercicio2_1());
+        Thread cuenta = new Thread(new EjCohete());
         cuenta.start();
         cuenta.join();
         System.out.println("<==DESPEGADO==>");
