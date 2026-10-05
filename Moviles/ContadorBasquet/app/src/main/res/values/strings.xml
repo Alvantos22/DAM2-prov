@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Application</string>
+    <string name="_10_00">10:00</string>
+    <string name="_1">1º</string>
+    <string name="equipo1" tools:ignore="Typos">Equipo1</string>
+    <string name="_33">33</string>
+    <string name="x">X</string>
+    <string name="botonplay">botonPlay</string>
+    <string name="equipo2">Equipo2</string>
+    <string name="_10">10</string>
+    <string name="faltas">Faltas</string>
+    <string name="mas">+</string>
+    <string name="_0_x_0">0 X 0</string>
+    <string name="botonsumar">BotonSumar</string>
+    <string name="compartir">COMPAR\nTIR</string>
+    <string name="editar">EDITAR</string>
+    <string name="__1">+1</string>
+    <string name="botonsuma1">+1</string>
+    <string name="_2">+2</string>
+    <string name="_3">+3</string>
+    <string name="_0">0</string>
+</resources>
