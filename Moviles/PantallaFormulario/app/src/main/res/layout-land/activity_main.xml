@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineDivisionVertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.50" />
+
+        <!-- Titulo del Examen -->
+        <TextView
+            android:id="@+id/TextoTituloExamen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/examen_de_android"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- SECCION IZQUIERDA: 1. Datos del Alumno -->
+        <TextView
+            android:id="@+id/Texto1DatosAlumno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="12dp"
+            android:text="@string/_1_datos_del_alumno"
+            android:textColor="#272f7a"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineDivisionVertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TextoTituloExamen" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutNombre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineDivisionVertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Texto1DatosAlumno">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nombre_completo1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/TextoCorreo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:minHeight="48dp"
+            android:autofillHints="emailAddress"
+            android:background="@android:drawable/editbox_background_normal"
+            android:ems="10"
+            android:hint="@string/correo_electr_nico"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineDivisionVertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutNombre" />
+
+        <!-- SECCION IZQUIERDA: 2. Selecciona la respuesta correcta -->
+        <TextView
+            android:id="@+id/Texto2RespuestaCorrecta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="12dp"
+            android:text="@string/_2_selecciona_la_respuesta_correcta"
+            android:textColor="#272f7a"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineDivisionVertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TextoCorreo" />
+
+        <TextView
+            android:id="@+id/PreguntaRadio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="12dp"
+            android:text="@string/qu_componente_se_n_utiliza_para_crear_dise_os_n_flexibles"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineDivisionVertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Texto2RespuestaCorrecta" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupPregunta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineDivisionVertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PreguntaRadio">
+
+            <RadioButton
+                android:id="@+id/RadioButtonLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/linearlayout" />
+
+            <RadioButton
+                android:id="@+id/RadioButtonConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/constraintlayout" />
+
+            <RadioButton
+                android:id="@+id/RadioButtonFrameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/framelayout" />
+        </RadioGroup>
+
+        <!-- SECCION DERECHA: 3. Selecciona todas las que apliquen -->
+        <TextView
+            android:id="@+id/Texto3Selecciona"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/_3_selecciona_todas_las_que_apliquen"
+            android:textColor="#272f7a"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guidelineDivisionVertical"
+            app:layout_constraintTop_toBottomOf="@+id/TextoTituloExamen" />
+
+        <TextView
+            android:id="@+id/PreguntaCheckBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/cu_les_son_componentes_de_la_arquitectura_android"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guidelineDivisionVertical"
+            app:layout_constraintTop_toBottomOf="@+id/Texto3Selecciona" />
+
+        <CheckBox
+            android:id="@+id/checkBoxActivity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/activity"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toStartOf="@+id/checkBoxViewModel"
+            app:layout_constraintStart_toEndOf="@+id/guidelineDivisionVertical"
+            app:layout_constraintTop_toBottomOf="@+id/PreguntaCheckBox" />
+
+        <CheckBox
+            android:id="@+id/checkBoxViewModel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/viewmodel"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBoxActivity"
+            app:layout_constraintTop_toBottomOf="@+id/PreguntaCheckBox" />
+
+        <CheckBox
+            android:id="@+id/checkBoxJavaScript"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/javascript"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toStartOf="@+id/checkBoxRepository"
+            app:layout_constraintStart_toEndOf="@+id/guidelineDivisionVertical"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxActivity" />
+
+        <CheckBox
+            android:id="@+id/checkBoxRepository"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/repository"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBoxJavaScript"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxViewModel" />
+
+        <!-- SECCION DERECHA: 4. Pregunta de desarrollo -->
+        <TextView
+            android:id="@+id/Texto4PreguntaDeDesarrollo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/_4_pregunta_de_desarrollo"
+            android:textColor="#272f7a"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guidelineDivisionVertical"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxJavaScript" />
+
+        <EditText
+            android:id="@+id/TextoExplicacionDependency"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:minHeight="80dp"
+            android:autofillHints=""
+            android:background="@android:drawable/editbox_background_normal"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/explica_qu_es_dependency_injection"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guidelineDivisionVertical"
+            app:layout_constraintTop_toBottomOf="@+id/Texto4PreguntaDeDesarrollo" />
+
+        <!-- BOTON DE ENVIAR EXAMEN -->
+        <Button
+            android:id="@+id/BotonEnviarExamen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#272f7a"
+            android:text="@string/enviar_examen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TextoExplicacionDependency"
+            app:layout_constraintWidth_percent="0.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
