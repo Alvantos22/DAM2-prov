@@ -1,23 +1,36 @@
 package main.EjercicioHilosConcurrencia;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class EjHiloVirtual {
      static void main() {
 
-        for (int i = 1; i <= 10000; i++) {
+         List<Thread> hilos = new ArrayList<>();
 
-            int numero = i;
-            try {
-                Thread.sleep(200);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
+         for (int i = 1; i <= 10000; i++) {
 
-            Thread.startVirtualThread(() -> {
-                System.out.println(
-                        "hilo " + numero +
-                                " - " + Thread.currentThread()
-                );
-            });
-        }
-    }
+             int numero = i;
+
+             Thread hilo = Thread.startVirtualThread(() -> {
+                 try {
+                     Thread.sleep(200);
+                 } catch (InterruptedException e) {
+                     Thread.currentThread().interrupt();
+                 }
+
+                 System.out.println("hilo " + numero);
+             });
+
+             hilos.add(hilo);
+         }
+
+         for (Thread hilo : hilos) {
+             try {
+                 hilo.join();
+             } catch (InterruptedException e) {
+                 throw new RuntimeException(e);
+             }
+         }
+     }
 }
