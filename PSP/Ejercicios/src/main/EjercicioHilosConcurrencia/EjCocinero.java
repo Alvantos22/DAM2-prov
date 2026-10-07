@@ -26,7 +26,7 @@ public class EjCocinero implements Runnable {
             Thread.sleep(2000);
             cocinero.interrupt();
             cocinero.join();
-        } catch (RuntimeException | InterruptedException e) {
+        } catch (InterruptedException e) {
             System.out.println(e.getMessage());
         } finally {
             System.out.println("Estado cocinero: "+cocinero.getState());
