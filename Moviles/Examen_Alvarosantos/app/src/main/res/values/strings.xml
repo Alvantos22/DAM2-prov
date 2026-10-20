@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Examen_Alvarosantos</string>
+    <string name="plus">+</string>
+    <string name="hola_ana">Hola, Ana</string>
+    <string name="hoy_tienes_3_nuevas_notificaciones">Hoy tienes 3 nuevas notificaciones</string>
+    <string name="todas">todas</string>
+    <string name="pendientes">pendientes</string>
+    <string name="completadas">completadas</string>
+</resources>
