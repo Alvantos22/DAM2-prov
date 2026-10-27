@@ -5,6 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dccfd18-a610-4cfd-bd79-9ae35f577f25" name="Changes" comment="5. ReentrantLock, Semaphore, AtomicInteger — Alternativas a synchronized (5.1)">
+      <change afterPath="$PROJECT_DIR$/../ADE/.idea/ADE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/Taller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerCompletable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerConContadores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerVirtualVIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerVirtuales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi-proyecto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/DAM2-prov.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADE/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADE/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_10_2026_22_34_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_10_2026_22_34_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_10_2026_22_34__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_10_2026_22_34__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_01_26_10_39_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_01_26_10_39__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +62,7 @@
       </branch-storage>
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-      </map>
+      <map />
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -50,21 +72,127 @@
     &quot;assignee&quot;: &quot;Alvantos22&quot;
   }
 }</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Alvantos22/DAM2-prov.git&quot;,
+    &quot;accountId&quot;: &quot;390ea72e-e2b6-445d-8f85-d139e79fab30&quot;
   }
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
 }</component>
+  <component name="ProjectColorInfo">{
+    &quot;associatedIndex&quot;: 4
+    }</component>
   <component name="ProjectId" id="3JzfyV41TKEWjA5iBNZ9bxo8mpO" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Restaurante.executor": "Run",
+    "Application.Taller.executor": "Run",
+    "Application.TallerPriority.executor": "Run",
+    "Application.TallerVirtualVIP.executor": "Run",
+    "Application.TallerVirtuales.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Santos/IdeaProjects/Dam2_prov/PSP",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm"
   }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Santos\IdeaProjects\DAM2-prov\PSP" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.TallerVirtualVIP">
+    <configuration name="Restaurante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Restaurante" />
+      <module name="mi-proyecto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Taller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Apuntes.Taller.Taller" />
+      <module name="mi-proyecto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.Apuntes.Taller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TallerPriority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Apuntes.Taller.TallerPriority" />
+      <module name="mi-proyecto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.Apuntes.Taller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TallerVirtualVIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Apuntes.Taller.TallerVirtualVIP" />
+      <module name="mi-proyecto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.Apuntes.Taller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TallerVirtuales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Apuntes.Taller.TallerVirtuales" />
+      <module name="mi-proyecto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.Apuntes.Taller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TallerVirtualVIP" />
+        <item itemvalue="Application.TallerVirtuales" />
+        <item itemvalue="Application.TallerPriority" />
+        <item itemvalue="Application.Taller" />
+        <item itemvalue="Application.Restaurante" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,6 +205,8 @@
       <workItem from="1790670549537" duration="3503000" />
       <workItem from="1790757324233" duration="128000" />
       <workItem from="1790843900745" duration="174000" />
+      <workItem from="1792347981808" duration="7321000" />
+      <workItem from="1792392528973" duration="7519000" />
     </task>
     <servers />
   </component>
