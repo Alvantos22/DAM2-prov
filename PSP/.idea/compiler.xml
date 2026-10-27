@@ -6,12 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="PSP" />
+        <module name="mi-proyecto" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Ejercicios" target="25" />
-      <module name="mi-proyecto" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>
