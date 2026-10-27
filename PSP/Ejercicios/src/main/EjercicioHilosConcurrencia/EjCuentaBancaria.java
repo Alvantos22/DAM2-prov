@@ -8,9 +8,14 @@ public class EjCuentaBancaria implements Runnable {
             this.saldo += cantidad;
         }
     /*
+
     public synchronized void depositarDinero(int cantidad){
             this.saldo += cantidad;
+
     }
+
+
+
      */
     }
 
