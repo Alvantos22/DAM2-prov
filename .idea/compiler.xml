@@ -10,6 +10,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ADE" target="25" />
+      <module name="DAM2-prov" target="25" />
     </bytecodeTargetLevel>
   </component>
 </project>
