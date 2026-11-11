@@ -1,33 +1,25 @@
-//package com.example.primercomposito_asa.ui.main
-//
-//import androidx.compose.runtime.mutableStateOf
-//import androidx.compose.runtime.getValue
-//import androidx.compose.runtime.setValue
-//import androidx.lifecycle.ViewModel
-//
-//
-//class RecursoViewModel : ViewModel() {
-//
-//    var recursos by mutableStateOf<List<Recurso>>(emptyList())
-//
-//        private set
-//    private var siguienteId=1
-//
-//
-//    fun anadirRecurso(
-//        nombre: String,
-//        tipo: String,
-//        cantidad: Int
-//    ) {
-//       val nuevoRecurso = Recurso(
-//           id = siguienteId++,
-//           nombre = nombre,
-//           tipo = tipo,
-//           cantidad = cantidad
-//       )
-//        recursos = recursos + nuevoRecurso
-//    }
-//    fun eliminarRecurso(id: Int) {
-//        recursos = recursos.filter { it.id != id }
-//    }
-//    }
+package com.example.primercomposito_asa.ui.main
+
+import androidx.compose.runtime.mutableStateListOf
+import androidx.lifecycle.ViewModel
+import com.example.primercomposito_asa.ui.model.Recurso
+
+class RecursoViewModel : ViewModel() {
+
+
+    val recursos = mutableStateListOf<Recurso>()
+
+        val contador: Int
+        get() = recursos.size
+
+    fun anadirRecurso(nombre: String, tipo: String, cantidad: Int) {
+
+        val nuevoRecurso = Recurso(
+            nombre = nombre,
+            tipo = tipo,
+            cantidad = cantidad
+        )
+
+        recursos.add(nuevoRecurso)
+    }
+}
