@@ -5,30 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dccfd18-a610-4cfd-bd79-9ae35f577f25" name="Changes" comment="5. ReentrantLock, Semaphore, AtomicInteger — Alternativas a synchronized (5.1)">
-      <change afterPath="$PROJECT_DIR$/../ADE/.idea/ADE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/Taller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerCompletable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerConContadores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerPriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerVirtualVIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/src/main/Apuntes/Taller/TallerVirtuales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi-proyecto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/DAM2-prov.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADE/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADE/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_10_2026_22_34_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_10_2026_22_34_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_10_2026_22_34__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_10_2026_22_34__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_01_26_10_39_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_01_26_10_39__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/.idea/Web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +63,65 @@
     &quot;accountId&quot;: &quot;390ea72e-e2b6-445d-8f85-d139e79fab30&quot;
   }
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0138881668932276" />
+      <entry key="MS500" value="1.425137080032098" />
+      <entry key="S2" value="1.8074808775626083" />
+      <entry key="S5" value="1.9180215973795964" />
+      <entry key="S10" value="1.9581344359637618" />
+      <entry key="S30" value="1.9858454047236518" />
+      <entry key="S60" value="1.9928974794628354" />
+      <entry key="M2" value="1.996442411513498" />
+      <entry key="M5" value="1.9985754429447287" />
+      <entry key="M10" value="1.999287467621169" />
+      <entry key="M15" value="1.999524921984864" />
+      <entry key="M30" value="1.9997624327733385" />
+      <entry key="H1" value="1.9998812093310576" />
+      <entry key="H2" value="1.9999406029015212" />
+      <entry key="H4" value="1.9999703010097456" />
+      <entry key="D1" value="1.9999950501070378" />
+      <entry key="W1" value="1.999999292870934" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8646229518203004" />
+      <entry key="MS500" value="1.124987353948456" />
+      <entry key="S2" value="1.6188635621574723" />
+      <entry key="S5" value="1.8262976010100958" />
+      <entry key="S10" value="1.9091521627627237" />
+      <entry key="S30" value="1.96878233650922" />
+      <entry key="S60" value="1.9842712276344807" />
+      <entry key="M2" value="1.992105394268897" />
+      <entry key="M5" value="1.9968348748024538" />
+      <entry key="M10" value="1.9984162210570668" />
+      <entry key="M15" value="1.9989438768852006" />
+      <entry key="M30" value="1.9994718031526122" />
+      <entry key="H1" value="1.9997358677450126" />
+      <entry key="H2" value="1.999867925413583" />
+      <entry key="H4" value="1.9999339605919235" />
+      <entry key="D1" value="1.9999889931382437" />
+      <entry key="W1" value="1.999998427583984" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
     &quot;associatedIndex&quot;: 4
     }</component>
@@ -85,32 +129,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Restaurante.executor": "Run",
-    "Application.Taller.executor": "Run",
-    "Application.TallerPriority.executor": "Run",
-    "Application.TallerVirtualVIP.executor": "Run",
-    "Application.TallerVirtuales.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Santos/IdeaProjects/Dam2_prov/PSP",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Restaurante.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Taller.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TallerPriority.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TallerVirtualVIP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TallerVirtuales.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Santos/IdeaProjects/Dam2_prov/PSP&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Santos\IdeaProjects\DAM2-prov\PSP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TallerVirtualVIP">
+  <component name="RunManager">
     <configuration name="Restaurante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Restaurante" />
       <module name="mi-proyecto" />
@@ -212,5 +256,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="error psp" />
+    <option name="LAST_COMMIT_MESSAGE" value="error psp" />
   </component>
 </project>
