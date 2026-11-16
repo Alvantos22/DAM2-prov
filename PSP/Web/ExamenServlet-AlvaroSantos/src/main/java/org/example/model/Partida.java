@@ -34,7 +34,7 @@ public class Partida {
 
     public int tirarDado(){
         Random rand=new Random();
-        return rand.nextInt(1,6);
+        return rand.nextInt(1,7);
     }
 
     public String[] getTablero() {
