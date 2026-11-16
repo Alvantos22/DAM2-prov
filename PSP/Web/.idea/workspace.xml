@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28b479b6-03bf-4705-bf49-98c00a41990f" name="Changes" comment="Correccion Examen Servelt + estadisticas">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Raya_de_3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TresEnRayaEnhanced/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TresEnRayaEnhanced/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TresEnRayaEnhanced/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TresEnRayaEnhanced/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TresEnRayaEnhanced/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TresEnRayaEnhanced/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../.." value="PSP" />
+        <entry key="$PROJECT_DIR$/../.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -48,7 +54,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "#23 on PSP",
+    "git-widget-placeholder": "PSP",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Santos/IdeaProjects/Dam2_prov/PSP/Web"
   }
