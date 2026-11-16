@@ -6,7 +6,6 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.example.model.Admin;
 import org.example.model.Partida;
 
 import java.io.IOException;
@@ -36,17 +35,26 @@ public class CrearPartida extends HttpServlet {
             return;
         }
 
-        Admin admin1 = new Admin(admin);
-        if (!admin1.getContrasenia().equalsIgnoreCase(contrasenia)){
+        if (!"123".equals(contrasenia)){
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Contraseña de administrador incorrecta");
             return;
         }
 
-
-        int casillas=Integer.parseInt(numCasillas);
+        int casillas;
+        try {
+            casillas=Integer.parseInt(numCasillas);
+        } catch (NumberFormatException e) {
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "La longitud debe ser un numero");
+            return;
+        }
+        if (casillas <= 0) {
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "La longitud debe ser mayor que cero");
+            return;
+        }
 
 
         partida = new Partida(casillas);
+        partida.setNumCasillas(casillas);
 
         req.getSession().setAttribute("partida", partida);
 
