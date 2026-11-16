@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd3c3737-7095-4035-911c-3b051d99bbcf" name="Changes" comment="Ejercicio2_2">
-      <change beforePath="$PROJECT_DIR$/../../ADE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ADE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Apuntes/logica/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/PrimerHilo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/PrimerHiloRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/EjercicioHilosConcurrencia/EjHiloVirtual.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/EjercicioHilosConcurrencia/Ejercicio1_1Runnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/EjercicioHilosConcurrencia/Ejercicio1_1Thread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/EjercicioHilosConcurrencia/Ejercicio2_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/EjercicioHilosConcurrencia/Ejercicio2_2.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +72,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "PSP",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Santos/IdeaProjects/DAM2-prov/PSP/Ejercicios",
     "node.js.detected.package.eslint": "true",
@@ -180,8 +169,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.97" />
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28539.97" />
+        <option value="bundled-jdk-30f59d01ecdd-2df11533d9fe-intellij.indexing.shared.core-IU-262.11879.100" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.11879.100" />
       </set>
     </attachedChunks>
   </component>
@@ -198,6 +187,7 @@
       <workItem from="1790879517068" duration="7301000" />
       <workItem from="1791185843233" duration="29000" />
       <workItem from="1791314630968" duration="433000" />
+      <workItem from="1794859581338" duration="174000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicio hilos">
       <option name="closed" value="true" />
