@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dccfd18-a610-4cfd-bd79-9ae35f577f25" name="Changes" comment="5. ReentrantLock, Semaphore, AtomicInteger — Alternativas a synchronized (5.1)">
-      <change beforePath="$PROJECT_DIR$/Web/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/.idea/Web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_2026_19_47__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/TresEnRayaEnhanced/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +40,12 @@
       </branch-storage>
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map />
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -63,65 +59,6 @@
     &quot;accountId&quot;: &quot;390ea72e-e2b6-445d-8f85-d139e79fab30&quot;
   }
 }</component>
-  <component name="NextEditCompletionFeaturesState">
-    <decayedCancelled>
-      <entry key="MS100" value="1.0138881668932276" />
-      <entry key="MS500" value="1.425137080032098" />
-      <entry key="S2" value="1.8074808775626083" />
-      <entry key="S5" value="1.9180215973795964" />
-      <entry key="S10" value="1.9581344359637618" />
-      <entry key="S30" value="1.9858454047236518" />
-      <entry key="S60" value="1.9928974794628354" />
-      <entry key="M2" value="1.996442411513498" />
-      <entry key="M5" value="1.9985754429447287" />
-      <entry key="M10" value="1.999287467621169" />
-      <entry key="M15" value="1.999524921984864" />
-      <entry key="M30" value="1.9997624327733385" />
-      <entry key="H1" value="1.9998812093310576" />
-      <entry key="H2" value="1.9999406029015212" />
-      <entry key="H4" value="1.9999703010097456" />
-      <entry key="D1" value="1.9999950501070378" />
-      <entry key="W1" value="1.999999292870934" />
-    </decayedCancelled>
-    <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
-    </decayedSelected>
-    <decayedShown>
-      <entry key="MS100" value="0.8646229518203004" />
-      <entry key="MS500" value="1.124987353948456" />
-      <entry key="S2" value="1.6188635621574723" />
-      <entry key="S5" value="1.8262976010100958" />
-      <entry key="S10" value="1.9091521627627237" />
-      <entry key="S30" value="1.96878233650922" />
-      <entry key="S60" value="1.9842712276344807" />
-      <entry key="M2" value="1.992105394268897" />
-      <entry key="M5" value="1.9968348748024538" />
-      <entry key="M10" value="1.9984162210570668" />
-      <entry key="M15" value="1.9989438768852006" />
-      <entry key="M30" value="1.9994718031526122" />
-      <entry key="H1" value="1.9997358677450126" />
-      <entry key="H2" value="1.999867925413583" />
-      <entry key="H4" value="1.9999339605919235" />
-      <entry key="D1" value="1.9999889931382437" />
-      <entry key="W1" value="1.999998427583984" />
-    </decayedShown>
-  </component>
   <component name="ProjectColorInfo">{
     &quot;associatedIndex&quot;: 4
     }</component>
@@ -129,32 +66,33 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Restaurante.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Taller.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TallerPriority.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TallerVirtualVIP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TallerVirtuales.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Santos/IdeaProjects/Dam2_prov/PSP&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Restaurante.executor": "Run",
+    "Application.Taller.executor": "Run",
+    "Application.TallerPriority.executor": "Run",
+    "Application.TallerVirtualVIP.executor": "Run",
+    "Application.TallerVirtuales.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "PSP",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Santos/IdeaProjects/Dam2_prov/PSP",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.language"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Santos\IdeaProjects\DAM2-prov\PSP" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TallerVirtualVIP">
     <configuration name="Restaurante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Restaurante" />
       <module name="mi-proyecto" />
@@ -233,8 +171,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+        <option value="bundled-jdk-30f59d01ecdd-2df11533d9fe-intellij.indexing.shared.core-IU-262.11879.100" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.11879.100" />
       </set>
     </attachedChunks>
   </component>
@@ -251,14 +189,11 @@
       <workItem from="1790843900745" duration="174000" />
       <workItem from="1792347981808" duration="7321000" />
       <workItem from="1792392528973" duration="7519000" />
+      <workItem from="1794422609396" duration="348000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="error psp" />
-    <option name="LAST_COMMIT_MESSAGE" value="error psp" />
   </component>
 </project>
