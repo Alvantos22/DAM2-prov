@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Examen_MVVM-AlvaroSantos</string>
+    <string name="escribe_un_nombre">Escribe un nombre</string>
+    <string name="a_adir_usuario">Añadir usuario</string>
+    <string name="listado_de_alumnos">Listado de alumnos</string>
+    <string name="textview">TextView</string>
+    <string name="aniadir_nuevo_alumno">Aniadir nuevo alumno</string>
+    <string name="nombre_del_alumno">Nombre</string>
+    <string name="apellidos_de_alumno">Apellidos</string>
+    <string name="curso">Curso</string>
+    <string name="edad">Edad</string>
+    <string name="alumno_activo">Alumno Activo</string>
+    <string name="email">Email</string>
+    <string name="activo">Activo</string>
+</resources>

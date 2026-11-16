@@ -9,9 +9,7 @@ import com.example.repaso.databinding.ItemUsuarioBinding
 import com.example.repaso.domain.model.Usuario
 
 class UsuarioAdapter (
-    val delUsuario: (Usuario) -> Unit,
-
-)
+    val delUsuario: (Usuario) -> Unit, )
     : ListAdapter<Usuario, UsuarioAdapter.UsuarioViewHolder>(UsuarioDiffCallback()) {
     override fun onCreateViewHolder(
         parent: ViewGroup, viewType: Int
