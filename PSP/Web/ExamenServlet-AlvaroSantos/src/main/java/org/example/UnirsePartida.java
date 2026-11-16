@@ -29,17 +29,27 @@ public class UnirsePartida extends HttpServlet
         String id = req.getParameter("id");
 
 
-        if (jugador==null||id==null){
+        if (jugador==null||id==null||jugador.trim().isEmpty()){
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Parametros requeridos");
             return;
         }
 
-        Participante participante=new Participante(jugador,Integer.parseInt(id));
+        int identificador;
+        try {
+            identificador = Integer.parseInt(id);
+        } catch (NumberFormatException e) {
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "El id debe ser un numero");
+            return;
+        }
+        if (partida.getParticipantes().containsKey(jugador)) {
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "El jugador ya esta registrado");
+            return;
+        }
 
-
+        Participante participante=new Participante(jugador,identificador);
         partida.getParticipantes().put(jugador,participante);
 
-        resp.getWriter().println("Partida creada correctamente");
+        resp.getWriter().println("Jugador registrado correctamente");
 
     }
 }

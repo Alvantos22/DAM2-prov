@@ -4,7 +4,6 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.example.model.Admin;
 import org.example.model.Partida;
 
 import java.io.IOException;
@@ -30,8 +29,7 @@ public class ComenzarPartida extends HttpServlet{
         String admin = req.getParameter("admin");
         String contrasenia=req.getParameter("contrasenia");
 
-        Admin admin1 = new Admin(admin);
-        if (!admin1.getContrasenia().equalsIgnoreCase(contrasenia)){
+        if (admin == null || contrasenia == null || !"123".equals(contrasenia)){
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Contraseña de administrador incorrecta");
             partida.setJugable(false);
             return;
@@ -44,4 +42,3 @@ public class ComenzarPartida extends HttpServlet{
 
     }
 }
-
