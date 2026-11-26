@@ -1,18 +1,22 @@
 package org.example;
+
+import org.example.model.Jugador;
+import org.example.model.Partida;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.example.model.Participante;
-import org.example.model.Partida;
 
 import java.io.IOException;
+import java.util.Arrays;
+
 @WebServlet("/jugar")
-public class JugarPartida extends HttpServlet{
+public class JugarPartida extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
+
 
         Partida partida = (Partida) req.getSession().getAttribute("partida");
         resp.setContentType("text/plain;charset=UTF-8");
@@ -21,74 +25,65 @@ public class JugarPartida extends HttpServlet{
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Primero crea la partida");
             return;
         }
-        if (partida.getParticipantes().isEmpty()){
+        if (partida.getJugadores().isEmpty()) {
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "No hay participantes");
             return;
         }
-        if (!partida.isJugable()){
-            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "La partida no es jugable todavia, comienzala");
+
+        String userJugador=req.getParameter("userJugador");
+        String letra=req.getParameter("letra");
+
+        if (userJugador==null||letra==null||letra.length()>1){
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Faltan parametros o has puesto mas de una letra");
             return;
         }
 
-        String nombreJugador=req.getParameter("nombreJugador");
-
-
-        if (!partida.getParticipantes().containsKey(nombreJugador)){
+        if (!partida.getJugadores().containsKey(userJugador)){
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "jugador no registrado");
             return;
         }
 
-        synchronized (partida) {
-            if (partida.isTerminada()) {
-                resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "La partida ya ha terminado");
-                return;
+        Jugador jugadorActual= partida.getJugadores().get(userJugador);
+        if (jugadorActual.isTurnoCumplido()){
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "este jugador ya ha jugado este turno");
+            return;
+        }
+
+        char[] solucion=partida.getProgreso();
+        char intento = letra.charAt(0);
+
+        for (int i = 0; i < solucion.length; i++) {
+            String cambiarLetra= String.valueOf(solucion[i]);
+            if (cambiarLetra.equalsIgnoreCase(letra)){
+                solucion[i]=intento;
             }
+            resp.getWriter().print(solucion);
+        }
 
-            Participante jugadorActual= partida.getParticipantes().get(nombreJugador);
-            if (jugadorActual.isTurnoCumplido()){
-                resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "este jugador ya ha jugado este turno");
-                return;
+        partida.setProgreso(solucion);
+
+
+        boolean todosHanJugado = true;
+        for (Jugador jugador :partida.getJugadores().values()){
+            if (!jugador.isTurnoCumplido()){
+                todosHanJugado = false;
+                break;
             }
+        }
 
-            int tirada = partida.tirarDado();
-            jugadorActual.sumarPosiciones(tirada);
-            jugadorActual.setTurnoCumplido(true);
-
-            resp.getWriter().println("Turno " + partida.getContadorTurnos()
-                    + ": " + jugadorActual.getNombre() + " ha sacado " + tirada);
-            resp.getWriter().println("JUGADOR "+ jugadorActual.toString()
-                    +" va por la casilla "+jugadorActual.getPosicionesAvanzadas());
-
-            for (Participante participante:partida.getParticipantes().values()){
-                resp.getWriter().println(participante.getNombre()
-                        + " lleva " + participante.getPosicionesAvanzadas() + " casillas");
-            }
-
-            if (jugadorActual.getPosicionesAvanzadas()>=partida.getNumCasillas()){
-                partida.setTerminada(true);
-                partida.setJugable(false);
-                resp.getWriter().println("JUGADOR "+ jugadorActual.getNombre()+" ha ganado");
-                return;
-            }
-
-            boolean todosHanJugado = true;
-            for (Participante participante:partida.getParticipantes().values()){
-                if (!participante.isTurnoCumplido()){
-                    todosHanJugado = false;
-                    break;
-                }
-            }
-
-            if (todosHanJugado) {
-                for (Participante participante:partida.getParticipantes().values()){
-                    participante.setTurnoCumplido(false);
-                }
-                partida.setContadorTurnos(partida.getContadorTurnos() + 1);
-                resp.getWriter().println("Turno completado. Comienza el siguiente turno");
+        if (todosHanJugado) {
+            for (Jugador jugador :partida.getJugadores().values()){
+                jugador.setTurnoCumplido(false);
             }
         }
 
 
+        if (Arrays.equals(partida.getProgreso(), solucion)){
+            resp.getWriter().print(solucion);
+            resp.getWriter().println(jugadorActual+"HA GANADO");
+            jugadorActual.setContadorVictorias(jugadorActual.getContadorVictorias()+1);
 
+        }
     }
+
 }

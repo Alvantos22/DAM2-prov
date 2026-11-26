@@ -1,12 +1,12 @@
 package org.example;
 
+import org.example.model.Jugador;
+import org.example.model.Partida;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpServlet;
-import org.example.model.Participante;
-import org.example.model.Partida;
 
 import java.io.IOException;
 
@@ -24,13 +24,18 @@ public class UnirsePartida extends HttpServlet
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Primero crea la partida");
             return;
         }
-
-        String jugador= req.getParameter("jugador");
+        String biblio = req.getParameter("biblio");
+        String contrasenia= req.getParameter("contrasenia");
+        String user= req.getParameter("user");
         String id = req.getParameter("id");
 
 
-        if (jugador==null||id==null||jugador.trim().isEmpty()){
+        if (user==null||id==null||biblio==null||contrasenia==null){
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Parametros requeridos");
+            return;
+        }
+        if (!"123".equals(contrasenia)){
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Contraseña incorrecta");
             return;
         }
 
@@ -41,15 +46,20 @@ public class UnirsePartida extends HttpServlet
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "El id debe ser un numero");
             return;
         }
-        if (partida.getParticipantes().containsKey(jugador)) {
+        if (partida.getJugadores().containsKey(user)) {
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "El jugador ya esta registrado");
             return;
         }
 
-        Participante participante=new Participante(jugador,identificador);
-        partida.getParticipantes().put(jugador,participante);
+        if (partida.getJugadores().size()==2){
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "No se puede jugar mas de 2 jugadores");
+            return;
+        }
 
-        resp.getWriter().println("Jugador registrado correctamente");
+        Jugador jugador=new Jugador(user,identificador);
+        partida.getJugadores().put(user,jugador);
+
+        resp.getWriter().println("Jugador registrado correctamente: "+jugador);
 
     }
 }

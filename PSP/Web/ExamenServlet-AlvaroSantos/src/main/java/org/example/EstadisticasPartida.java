@@ -1,12 +1,12 @@
 package org.example;
 
+import org.example.model.Jugador;
+import org.example.model.Partida;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.example.model.Participante;
-import org.example.model.Partida;
 
 import java.io.IOException;
 
@@ -26,8 +26,9 @@ public class EstadisticasPartida extends HttpServlet {
 
         synchronized (partida) {
             resp.getWriter().println("ESTADISTICAS DE LA PARTIDA");
-            for (Participante participante : partida.getParticipantes().values()) {
-                resp.getWriter().println(participante.getNombre() + ": " + participante.getTiradas());
+            for (Jugador jugador : partida.getJugadores().values()) {
+                resp.getWriter().println(jugador.getNombre() + ": ");
+                resp.getWriter().println(jugador.getContadorVictorias());
             }
         }
     }

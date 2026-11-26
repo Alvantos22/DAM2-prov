@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dccfd18-a610-4cfd-bd79-9ae35f577f25" name="Changes" comment="5. ReentrantLock, Semaphore, AtomicInteger — Alternativas a synchronized (5.1)">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_2026_19_47__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/TresEnRayaEnhanced/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9dccfd18-a610-4cfd-bd79-9ae35f577f25" name="Changes" comment="Ejercicos Repaso Hilos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,12 +50,22 @@
     &quot;assignee&quot;: &quot;Alvantos22&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Alvantos22/DAM2-prov.git&quot;,
-    &quot;accountId&quot;: &quot;390ea72e-e2b6-445d-8f85-d139e79fab30&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Alvantos22/DAM2-prov.git",
+    "accountId": "390ea72e-e2b6-445d-8f85-d139e79fab30"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "Alvantos22",
+    "repository": "DAM2-prov"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
     &quot;associatedIndex&quot;: 4
     }</component>
@@ -78,9 +85,9 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "PSP",
+    "git-widget-placeholder": "#25 on PSP",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Santos/IdeaProjects/Dam2_prov/PSP",
+    "last_opened_file_path": "C:/Users/Santos/IdeaProjects/DAM2-prov/PSP",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
@@ -190,10 +197,24 @@
       <workItem from="1792347981808" duration="7321000" />
       <workItem from="1792392528973" duration="7519000" />
       <workItem from="1794422609396" duration="348000" />
+      <workItem from="1794859834427" duration="121000" />
     </task>
+    <task id="LOCAL-00001" summary="Ejercicos Repaso Hilos">
+      <option name="closed" value="true" />
+      <created>1794859872102</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1794859872102</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ejercicos Repaso Hilos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicos Repaso Hilos" />
   </component>
 </project>

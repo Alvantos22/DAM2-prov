@@ -1,12 +1,12 @@
 package org.example;
 
 
+import org.example.model.Partida;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.example.model.Partida;
 
 import java.io.IOException;
 
@@ -18,43 +18,36 @@ public class CrearPartida extends HttpServlet {
             throws ServletException, IOException {
 
         Partida partida = (Partida) req.getSession().getAttribute("partida");
+
+
+        String biblio = req.getParameter("biblio");
         String admin = req.getParameter("admin");
         String contrasenia=req.getParameter("contrasenia");
-        String numCasillas= req.getParameter("numCasillas");
+        String palabraOculta=req.getParameter("palabraOculta");
 
         resp.setContentType("text/plain;charset=UTF-8");
 
+
         if (partida != null) {
-            if (!partida.isTerminada()) {
-                resp.getWriter().println("Ya tienes una partida en curso");
-            }
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Partida ya creada");
             return;
         }
-        if (numCasillas==null||admin==null||contrasenia==null){
-            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Parametros requeridos");
+
+
+        if (biblio==null||contrasenia==null||admin==null||palabraOculta==null||palabraOculta.isBlank()){
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Faltan parametros");
             return;
         }
 
         if (!"123".equals(contrasenia)){
-            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Contraseña de administrador incorrecta");
-            return;
-        }
-
-        int casillas;
-        try {
-            casillas=Integer.parseInt(numCasillas);
-        } catch (NumberFormatException e) {
-            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "La longitud debe ser un numero");
-            return;
-        }
-        if (casillas <= 0) {
-            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "La longitud debe ser mayor que cero");
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Contraseña incorrecta");
             return;
         }
 
 
-        partida = new Partida(casillas);
-        partida.setNumCasillas(casillas);
+
+        partida = new Partida(biblio,palabraOculta);
+
 
         req.getSession().setAttribute("partida", partida);
 
